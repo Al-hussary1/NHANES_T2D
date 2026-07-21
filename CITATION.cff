@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the associated article."
+title: "Consensus-derived cardiometabolic phenotypes and cause-specific mortality in US adults with type 2 diabetes (NHANES 1999-2018)"
+authors:
+  - family-names: "[Surname]"
+    given-names: "[Given]"
+    orcid: "https://orcid.org/0000-0000-0000-0000"
+preferred-citation:
+  type: article
+  title: "[Article title]"
+  journal: "[Journal]"
+  year: 2026
+  doi: "[DOI]"

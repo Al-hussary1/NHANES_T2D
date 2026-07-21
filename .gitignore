@@ -1,0 +1,27 @@
+# Never commit data (NHANES is public; redistributing bloats the repo)
+data/raw/*
+data/derived/*
+!data/raw/.gitkeep
+!data/derived/.gitkeep
+
+# Generated outputs — regenerable. Comment out if the journal wants them committed.
+output/figures/*
+output/tables/*
+!output/figures/.gitkeep
+!output/tables/.gitkeep
+
+# Notebook cruft — strip outputs before committing (see README)
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+
+# OS / editor
+.DS_Store
+*~
+.vscode/

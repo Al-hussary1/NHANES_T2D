@@ -1,0 +1,13 @@
+# Freeze real versions from your working env before committing:
+#   pip freeze > requirements.txt
+# Core dependencies for this pipeline:
+pandas
+numpy
+matplotlib
+scikit-learn
+lifelines
+statsmodels
+pyarrow
+jupyter
+# consensus clustering: add whatever you used, e.g. ClusterEnsembles / your own module
+# MICE alternative closer to R: miceforest
